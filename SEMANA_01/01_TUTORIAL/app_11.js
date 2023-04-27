@@ -1,7 +1,7 @@
-const http = require('http');
-const hostname = '127.0.0.1';
-const port = 3011;
-const server = http.createServer((req, res) => {
+const http = require('http'); //importa o http do node
+const hostname = '127.0.0.1'; //define onde o servidor será executado
+const port = 3011; //Em qual porta do seu pc irá rodar o servidor
+const server = http.createServer((req, res) => { 
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
   res.end('<!DOCTYPE html> <head> <title>Etapa 0 - INSTALACAO</title></head> \

@@ -1,5 +1,5 @@
-const http    = require('http');
-const sqlite3 = require('sqlite3').verbose(); 
+const http    = require('http'); //importa o módulo http e permite criar um servidor http no Node.js
+const sqlite3 = require('sqlite3').verbose(); //
 const hostname = '127.0.0.1';
 const port = 3012;
 
