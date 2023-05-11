@@ -1,0 +1,17 @@
+{
+  "name": "02_aut_est_entrega",
+  "version": "1.0.0",
+  "description": "Até este momento, pelo fato de não estarmos construindo o frontend de seu currículo, é preciso apresentar uma base sólida na camada de persistência, através da criação das consultas (SELECT) para todas as áreas.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "sqlite": "^4.2.0",
+    "sqlite3": "^5.1.6"
+  }
+}

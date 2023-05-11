@@ -1,0 +1,66 @@
+CREATE TABLE Pessoa (
+	ID integer,
+	Nome text,
+	Foto text,
+	Email text,
+	Telefone text,
+	Cargo text
+);
+
+CREATE TABLE Endereço (
+	ID integer,
+	Estado text,
+	Cidade text,
+	Bairro text,
+	Rua text,
+	Número integer,
+	userID text
+);
+
+CREATE TABLE Realizações (
+	ID integer PRIMARY KEY AUTOINCREMENT,
+	Realização text PRIMARY KEY AUTOINCREMENT,
+	Ano date PRIMARY KEY AUTOINCREMENT,
+	Descrição text PRIMARY KEY AUTOINCREMENT,
+	userID text PRIMARY KEY AUTOINCREMENT
+);
+
+CREATE TABLE Personalidade (
+	ID integer PRIMARY KEY AUTOINCREMENT,
+	Característica text PRIMARY KEY AUTOINCREMENT,
+	Nível integer PRIMARY KEY AUTOINCREMENT,
+	userID text PRIMARY KEY AUTOINCREMENT
+);
+
+CREATE TABLE Formação (
+	ID integer PRIMARY KEY AUTOINCREMENT,
+	Curso text PRIMARY KEY AUTOINCREMENT,
+	Data Início date PRIMARY KEY AUTOINCREMENT,
+	Data Fim date PRIMARY KEY AUTOINCREMENT,
+	userID text PRIMARY KEY AUTOINCREMENT
+);
+
+CREATE TABLE Experiência (
+	ID integer PRIMARY KEY AUTOINCREMENT,
+	Nome text PRIMARY KEY AUTOINCREMENT,
+	Data Início date PRIMARY KEY AUTOINCREMENT,
+	Data Fim date PRIMARY KEY AUTOINCREMENT,
+	Cargo text PRIMARY KEY AUTOINCREMENT,
+	Descrição text PRIMARY KEY AUTOINCREMENT,
+	userID text PRIMARY KEY AUTOINCREMENT
+);
+
+CREATE TABLE Habilidades (
+	ID integer PRIMARY KEY AUTOINCREMENT,
+	Nome text PRIMARY KEY AUTOINCREMENT,
+	Nível integer PRIMARY KEY AUTOINCREMENT,
+	userID text PRIMARY KEY AUTOINCREMENT
+);
+
+
+
+
+
+
+
+
