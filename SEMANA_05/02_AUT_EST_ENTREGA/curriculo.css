@@ -1,0 +1,29 @@
+.fotoPerfil{
+  border-radius: 100%;
+  width: 230px;
+  height: 200px;
+  object-fit: cover;
+}
+
+body{
+  background-color: #f7f7f9;
+  margin: auto;
+}
+
+.card{
+  background-color: blueviolet;
+  color: #ffff; 
+}
+
+.container{
+  background-color: azure;
+}
+
+/*.container{
+  width: 30%;
+  float: left;
+  background-color: rgb(96, 11, 51);
+  color: yellow;
+  text-align: center;
+  height: 100%;
+}*/
