@@ -1,0 +1,32 @@
+img{
+  border-radius: 100%;
+  width: 230px;
+  height: 200px;
+  object-fit: cover;
+}
+
+body{
+  background-color: #f7f7f9;
+  margin: auto;
+}
+
+.card{
+  background-color: blueviolet;
+  color: #ffff; 
+  
+}
+
+.container{
+  background-color: azure;
+}
+
+.fullScreen{
+  margin-top: 10px;
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+
+.fullScreen:hover{
+  opacity: 0.8;
+}
